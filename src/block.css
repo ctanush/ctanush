@@ -1,0 +1,13 @@
+.cont-sml{
+    display: block;
+    height: 100%;
+    width: 100%;
+    min-height: 260px;
+    text-align: center;
+   
+}
+
+p.cont-sml{
+    display: block;
+    margin-top: 3%;
+}
