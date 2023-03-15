@@ -178,6 +178,7 @@
     "ee-first": "^1.1.1",
     "ejs": "^3.1.8",
     "electron-to-chromium": "^1.4.284",
+    "emailjs-com": "^3.2.0",
     "emittery": "^0.8.1",
     "emoji-regex": "^9.2.2",
     "emojis-list": "^3.0.0",
@@ -597,10 +598,12 @@
     "react-dev-utils": "^12.0.1",
     "react-dom": "^18.2.0",
     "react-error-overlay": "^6.0.11",
+    "react-hook-form": "^7.43.5",
     "react-is": "^17.0.2",
     "react-refresh": "^0.11.0",
     "react-router-dom": "^6.4.4",
     "react-scripts": "^5.0.1",
+    "react-toastify": "^9.1.1",
     "read-cache": "^1.0.0",
     "readable-stream": "^3.6.0",
     "readdirp": "^3.6.0",
@@ -796,8 +799,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "react-scripts start",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "eject": "react-scripts eject"
   },
@@ -824,7 +827,7 @@
     "type": "git",
     "url": "git+https://github.com/ctanush/ctanush.git"
   },
-  "author": "",
+  "author": "C Tanush",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ctanush/ctanush/issues"

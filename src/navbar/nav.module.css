@@ -1,10 +1,9 @@
 .nav_main{
-    background-color: black;
-    display: block;
-    height: 60px;
+    background-color: #460C68;
     text-align: left;
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
 .main{
     color: white;
@@ -12,6 +11,7 @@
     display: flex;
     flex-direction: row;
     padding: 10px;
+    width: 50%;
 
 }
 .lnk{
@@ -25,10 +25,60 @@
     padding-top: 6px;
     text-align: right;
     display: block;
-    width: 100%;
+    width: 50%;
+}
+
+.srt_main{
+    display: none;
+}
+.btn{
+    display: none;
 }
 
 .icon{
    display:inline;
    margin:1.3rem;
+}
+
+.blk{
+    display: block;
+}
+.lnks{
+    padding: 2%;
+    border-bottom:0.4rem dashed grey ;
+    text-align: center;
+
+    
+}
+@media screen and (max-width:680px){
+      .nav_main{
+        display: block;
+      }
+      .main{
+        display: none;
+      }
+      
+      .contacts{
+        display: none;
+      }
+      .srt_main{
+        display: inline-block;
+        width: 30%;
+        padding: 1.2rem ;
+      }
+
+      .lnk1{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    box-sizing: border-box;
+
+      }
+      .btn{
+        display: inline-block;
+        text-align: right;
+        padding:1.2rem ;
+        color: white;
+        width: 30%;
+      }
 }

@@ -29,3 +29,14 @@
    from {transform: rotate(0deg);}
    to {transform: rotate(180deg);}
 }
+
+@media screen and (max-width:680px) {
+      .crd{
+         display: block;
+      }
+      .skill{
+         padding: 10px;
+         text-align: center;
+      }
+
+}

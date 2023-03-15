@@ -29,3 +29,10 @@ p.card{
   visibility: hidden;
 }
 
+@media screen and (max-width:680px){
+    .card{
+      display: inline-block;
+      width: 60%;
+      margin: 0;
+    }
+}

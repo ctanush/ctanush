@@ -4,7 +4,7 @@ function Blk_cont(props){
 return(
     <div className= {props.cls}>
     <div className="cont-sml">
-    <p>{props.txt}</p>
+    <p>{props.children}</p>
     </div>
     </div>
 );

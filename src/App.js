@@ -1,19 +1,19 @@
 import './App.css';
 import Nav from './navbar/nav';
-import Intro from './intro/intro';
+import Home from './home/home';
 import Skills from './skill/skills';
+import ContactForm from './contact/contact';
 import { Routes, Route} from 'react-router-dom';
+
 function App() {
   return (
     <div className="App">
       <Nav/>
       <Routes>
-        <Route exact path='/'></Route>
-        <Route  path='/skill/skills' element={<Skills/>}></Route>
+        <Route  path='/' element={<Home/>}></Route>
+        <Route  path='/skills' element={<Skills/>}></Route>
+        <Route  path='/contact' element={<ContactForm/>}></Route>
       </Routes>
-      <Intro/>
-      <Skills/>
-      
     </div>
   );
 }
