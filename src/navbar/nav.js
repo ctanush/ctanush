@@ -8,7 +8,7 @@ function Nav(){
    return(
     <div className={classes.nav_main}>
           <div className={classes.main}>
-
+          
           <Link className={classes.lnk} to="/"> Home</Link>
            <Link to="/skills" className={classes.lnk}> Skills</Link>
            <Link to="/contact" className={classes.lnk}> Contact Me</Link>

@@ -11,7 +11,6 @@ const ContactForm = () => {
     formState: { errors }
   } = useForm();
   
-  // Function that displays a success toast on bottom right of the page when form submission is successful
   const toastifySuccess = () => {
     toast('Form sent!', {
       position: 'bottom-right',
@@ -25,9 +24,8 @@ const ContactForm = () => {
     });
   };
   
-  // Function called on submit that uses emailjs to send email of valid contact form
   const onSubmit = async (data) => {
-    // Destrcture data object
+
     const { name, email, subject, message } = data;
     try {
       const templateParams = {
