@@ -25,6 +25,7 @@
       * React.js
       * Node.js
       * Flask
+      * Web3.js
         
   + 2.Data Scientist
       * Statistic Analysis
@@ -35,7 +36,7 @@
       * Data Analysis
       * Tablue
         
-  + 3.Languages:Python,C++,java
+  + 3.Languages:Python,C++,java,Solidity
     
   + 4.Concepts:DSA,OOPS,OS,CNS
 
